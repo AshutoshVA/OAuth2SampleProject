@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_security
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+         google:
+          clientId: 6118486590-d4bqjskmktvh1na2blsj62iuqsobu2st.apps.googleusercontent.com
+          clientSecret: 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
+          scope:
+           - email
+           - profile
+         github:
+          clientId: 7e7f7e743bf6ba59a241
+          clientSecret: a1a18eada332944bc1531b34df053d3a21767a67
+          scope:
+           - email
+           - user
