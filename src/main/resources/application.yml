@@ -15,13 +15,13 @@ spring:
         registration:
          google:
           clientId: Your Client Id
-          clientSecret: Your clienr Secret
+          clientSecret: Your client Secret
           scope:
            - email
            - profile
          github:
           clientId: Your Client Id
-          clientSecret: Your clienr Secret
+          clientSecret: Your client Secret
           scope:
            - email
            - user
